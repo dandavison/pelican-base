@@ -37,4 +37,4 @@ DEFAULT_PAGINATION = False
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['simple_footnotes', 'render_math']
 
-THEME = 'themes/aboutwilson'
+THEME = 'pelican-themes/aboutwilson'
