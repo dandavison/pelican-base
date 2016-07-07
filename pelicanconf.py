@@ -33,3 +33,8 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['simple_footnotes', 'render_math']
+
+THEME = 'themes/aboutwilson'
