@@ -16,7 +16,7 @@ cd REPO_NAME
 git submodule init
 git submodule update
 mkdir output
-pip install html5lib markdown pelican
+pip install ghp-import html5lib markdown pelican
 make html
 make serve
 # It should now be served at localhost:8000
